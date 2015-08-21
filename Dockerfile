@@ -44,5 +44,5 @@ RUN cd /sirius/sirius-application/question-answer && \
     wget -O - http://web.eecs.umich.edu/~jahausw/download/wiki_indri_index.tar.gz | tar xz
 
 #Add runit services
-ADD sv /etc/service 
+#ADD sv /etc/service 
 
